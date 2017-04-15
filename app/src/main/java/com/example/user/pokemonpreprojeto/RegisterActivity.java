@@ -6,19 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class RegisterActivity extends AppCompatActivity implements View.OnClickListener{
+public class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         Button button = (Button) findViewById(R.id.Register);
-        button.setOnClickListener(this);
         Button button2 = (Button) findViewById(R.id.BacktoLogin);
-        button2.setOnClickListener(this);
-    }
-
-    public void onClick(View v) {
     }
 
     public void RegisterConfirm(View view){
