@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-public class PokemonMain extends AppCompatActivity, extends ListActivity {
+public class PokemonMain extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
