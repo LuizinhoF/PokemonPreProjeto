@@ -6,4 +6,90 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.pokemonpreprojeto.PokemonMain">
 
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="103dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="88dp"
+        tools:layout_editor_absoluteX="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Spinner
+                android:id="@+id/pokemon1"
+                android:layout_width="match_parent"
+                android:layout_height="53dp" />
+
+            <Spinner
+                android:id="@+id/pokemon2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Spinner
+                android:id="@+id/pokemon3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.92" />
+
+            <Spinner
+                android:id="@+id/pokemon4"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_weight="0.13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/pokemon5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17" />
+
+            <Spinner
+                android:id="@+id/pokemon6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/PokemonList"
+        android:layout_width="369dp"
+        android:layout_height="193dp"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
 </android.support.constraint.ConstraintLayout>
